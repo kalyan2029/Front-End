@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    
+
+}
+
+
+.blocks {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+ 
+}
+
+
+.block1,
+.block3,
+.block5,
+.block7,
+.block9,
+.block2,
+.block4,
+.block6,
+.block8{
+    width: 100px;
+    height: 100px;
+}
+
+
+.block1,
+.block3,
+.block5,
+.block7,
+.block9 {
+    
+    background-color: brown;
+}
+
+.block2,
+.block4,
+.block6,
+.block8 {
+    
+    background-color: yellow;
+}
