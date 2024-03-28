@@ -1,0 +1,87 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 100vh;
+    gap:5px;
+    grid-template-areas: "box1 box1 box1"
+                         "box2 box3 box5"
+                         "box2 box4 box5"
+                         "box6 box6 box6"
+                         
+                        
+    
+
+}
+
+.box{
+    padding: 20px;
+}
+/* .box:nth-child(even){
+    
+    background-color: cadetblue;
+}
+
+.box:nth-child(odd){
+    
+    background-color:blueviolet;
+} */
+
+.box1{
+    grid-area: box1;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    padding:35px;
+    border-radius: 15px;
+}
+.box2{
+    grid-area: box2;
+    background-color: lightcoral;
+    color: black;
+    text-align: center;
+    padding-top:35px;
+    border-radius: 15px; 
+}
+.box3{
+    grid-area: box3;
+    background-color: lightsalmon;
+    color: black;
+    text-align: center;
+    padding-top:35px;
+    border-radius: 15px;
+    
+}
+.box4{
+    grid-area: box4;
+    background-color:brown;
+    color: black;
+    text-align: center;
+    padding-top:35px;
+    border-radius: 15px;
+    
+}
+.box5{
+    grid-area: box5;
+    background-color: blue;
+    color: black;
+    text-align: center;
+    padding-top:35px;
+    border-radius: 15px;
+    
+}
+.box6{
+    grid-area: box6;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding-top:35px;
+    border-radius: 15px;
+    
+}
