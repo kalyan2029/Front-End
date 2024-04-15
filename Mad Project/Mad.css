@@ -1,0 +1,560 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.mobile {
+    display: none;
+}
+
+
+.Menu {
+    background-color: white;
+    height: 180px;
+}
+
+.Menu .log {
+    display: flex;
+    justify-content: center;
+    height: 15px;
+    margin: 15px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.Menu .burger {
+    display: none;
+}
+
+.smallMenu .MenuList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+
+}
+
+.smallMenu .MenuList a {
+    color: #23242C;
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+@media(max-width:540px) {
+    .mobile {
+        display: flex;
+    }
+
+    .Menu .log {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        height: 15px;
+        margin: 15px;
+        margin-top: 50px;
+        padding-left: 40px;
+        gap: 30px;
+
+    }
+
+    .heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        font-family: Playfair Display;
+        font-size: 55px;
+        font-weight: bold;
+        margin-top: -60px;
+        gap: 20px;
+        padding-left: 60px;
+
+    }
+
+    .smallMenu .MenuList {
+        display: none;
+
+    }
+
+    .Menu .burger {
+        display: block;
+        padding-left: 1300px;
+        margin-top: -50px;
+    }
+
+    .Menu .burger div {
+        background-color: black;
+        height: 7px;
+        width: 45px;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+/* Hero Section */
+
+
+body .herobar {
+    display: flex;
+
+    justify-content: center;
+}
+
+.herobar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 250px;
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    justify-content: space-around;
+
+}
+
+.herobar .imgSec {
+    position: relative;
+    justify-content: center;
+    left: 500px;
+    top: 70px;
+
+}
+
+.herobar .imgSec .imgSec1 {
+    position: absolute;
+    top: -50px;
+    left: -70px;
+    width: 180px;
+    height: 230px;
+}
+
+.herobar .imgSec .imgSec2 {
+    width: 180px;
+    height: 230px;
+}
+
+
+.herobar h1 {
+    font-family: Playfair Display;
+    position: relative;
+    right: 290px;
+    top: 80px;
+    text-align: start;
+    font-weight: bold;
+    font-size: 52px;
+    color: #000000;
+
+}
+
+.herobar h1 span {
+    width: 56.32px;
+    height: 64px;
+    top: 546px;
+    left: 133px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Playfair Display;
+    font-size: 43.52px;
+    font-weight: 700;
+    line-height: 17.41px;
+    text-align: left;
+
+}
+
+.herobar h5 {
+    padding-top: 50px;
+    width: 91px;
+    height: 24px;
+    top: 379px;
+    left: 133px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    text-align: left;
+    color: #967675;
+}
+
+
+.herobar button {
+    position: relative;
+    right: 670px;
+    top: 230px;
+    justify-content: flex-start;
+    width: 120px;
+    height: 40px;
+    border-color: #CFADAC;
+    background-color: #ffffff;
+    /* box-shadow: #000000  1px 1px 1px; */
+    border-radius: 5px;
+
+}
+
+@media(max-width:560px) {}
+
+
+
+
+
+/* List Section */
+
+
+.list {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.list .list1 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 10px;
+    padding-bottom: 20px;
+
+
+}
+
+.list .list1 .imag1 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 18px;
+
+
+}
+
+.list .list1 h1 {
+    width: 117px;
+    height: 51px;
+    top: 971px;
+    left: 158px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Playfair Display;
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: #111111;
+
+}
+
+.list .heads p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #9D8888;
+    position: relative;
+    left: 45px;
+}
+
+
+
+@media(max-width:500px) {}
+
+
+/* Title Bar */
+
+.Titlebar {
+    margin-top: 100px;
+    margin-left: 240px;
+    width: 900px;
+    height: 380px;
+    top: 1313px;
+    left: 129px;
+    gap: 70px;
+    opacity: 0px;
+    background-color: white;
+    display: flex;
+}
+
+
+.Titlebar .lady3 {
+    height: 350px;
+    width: 400px;
+}
+
+
+.Titlebar .information h5 {
+    color: #967675;
+    width: 105px;
+    height: 24px;
+    top: 1313px;
+    left: 801px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.Titlebar .information h1 {
+
+
+
+    font-family: Playfair Display;
+    font-size: 75px;
+    font-weight: 650;
+    text-align: left;
+    color: #23242C;
+
+}
+
+.Titlebar .information button {
+    width: 120px;
+    height: 40px;
+    border-color: #CFADAC;
+    background-color: #ffffff;
+    /* box-shadow: #000000  1px 1px 1px; */
+    border-radius: 5px;
+
+}
+
+@media() {}
+
+
+
+
+/* ourRange Section */
+
+
+.ORSection {
+    margin-top: 120px;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+}
+
+.ORSection h4 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    color: #967675;
+    padding-bottom: 15px;
+}
+
+
+.ORSection h1 {
+    /* width: 504px;
+    height: 110px;
+    top: 2031px;
+    left: 468px;
+    gap: 0px;
+    opacity: 0px; */
+    font-family: Playfair Display;
+    font-size: 60px;
+    font-weight: 700;
+    /* line-height: 110px;
+    text-align: center; */
+    color: #23242C;
+    padding-bottom: 15px;
+
+}
+
+.ORSection .cards{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 300px;
+    
+}
+
+.ORSection .cards .card1 {
+    width: 300px;
+    height: 400px;
+    background-color: #F6ECE8;
+    margin-top: 30px;
+
+}
+
+.ORSection .cards .card1 .imgOR {
+    width: 300px;
+    height: 280px;
+}
+
+.ORSection .cards .card1 h3 {
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 63.98px;
+    text-align: center;
+    color: #967675;
+
+}
+
+.ORSection .cards .card1 p { 
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    color: #967675;
+}
+
+.ORSection .cards .card2 {
+    width: 300px;
+    height: 400px;
+    background-color: #F6ECE8;
+    position: absolute;
+    top: 70px;
+    left:400px;
+
+}
+
+.ORSection .cards .card2 .imgOR2 {
+    width: 300px;
+    height: 280px;
+}
+
+.ORSection .cards .card2 h3 {
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 63.98px;
+    text-align: center;
+    color: #967675;
+
+}
+
+.ORSection .cards .card2 p { 
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    color: #967675;
+}
+
+
+
+
+.ORSection .cards .card3 {
+    width: 300px;
+    height: 400px;
+    background-color: #F6ECE8;
+    position: absolute;
+    top: 500px;
+    right:700px;
+
+}
+
+.ORSection .cards .card3 .imgOR3 {
+    width: 300px;
+    height: 280px;
+}
+
+.ORSection .cards .card3 h3 {
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 63.98px;
+    text-align: center;
+    color: #967675;
+
+}
+
+.ORSection .cards .card3 p { 
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    color: #967675;
+}
+
+
+
+
+
+.ORSection .cards .card4 {
+    width: 300px;
+    height: 400px;
+    background-color: #F6ECE8;
+    position: absolute;
+    top: 650px;
+    left:400px;
+
+}
+
+.ORSection .cards .card4 .imgOR4 {
+    width: 300px;
+    height: 280px;
+}
+
+.ORSection .cards .card4 h3 {
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 63.98px;
+    text-align: center;
+    color: #967675;
+
+}
+
+.ORSection .cards .card4 p { 
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    color: #967675;
+}
+
+
+
+.ORSection h2{
+    margin-top: 650px;
+    font-size: 60px;
+}
+
+
+.quoteimg{
+    width: 600px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 340px;
+}
+
+
+.Newsletter{
+    background-color:  #F9F2EF;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    padding-top: 10px; 
+
+    
+}
+.fotterSection{
+    
+    width: 100%;
+    height: 400px;
+}
