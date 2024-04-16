@@ -1,0 +1,101 @@
+.grid{
+    margin: 20px;
+    background-color: green;
+    width: 1000px;
+    height: 600px;
+    position: relative;
+}
+
+.img1{
+    width: 400px;
+    height: 580px;
+    border-radius: 10px;
+    position: absolute;
+    left: 10px;
+    margin: 10px;
+}
+
+.img2,.img3,.img4,.img5,.img6,.img7{
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+    
+}
+
+.img2{
+    position: absolute;
+    left: 450px;
+    
+}
+.img3{
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    
+}
+
+.img4{
+    position: absolute;
+    left: 450px;
+    /* margin: 10px;  */
+    top: 380px;
+}
+
+.img5{
+    position: absolute;
+    left: 600px;
+    /* margin: 10px;  */
+}
+.img6{
+    position: absolute;
+    left: 600px;
+    margin: 10px;
+    top: 200px;
+    /* margin: 10px;  */
+}
+
+.img7{
+    position: absolute;
+    left: 600px;
+    margin: 10px;
+    /* margin: 10px;  */
+    top: 380px;
+}
+
+.img8{
+    width: 190px;
+    height: 220px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: 800px;
+    top: 10px;
+    
+}
+
+.img9{
+    width: 190px;
+    height: 230px;
+    border-radius: 15px;
+    position: absolute;
+    left: 790px;
+    margin: 10px;
+    top: 230px;
+}
+
+.grid button{
+    position:absolute;
+    left: 800px;
+    margin: 10px;
+    margin: 10px; 
+    top: 500px;
+    background-color: blue;
+    width: 120px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+ 
+
